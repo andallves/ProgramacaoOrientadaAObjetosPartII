@@ -10,7 +10,6 @@ public class Funcionario : Pessoa
     public string Matricula { get; set; }
 
     public string Cnpj { get; private set; }
-    public HashSet<Cidadao> Cadastrados { get; private set; } = new HashSet<Cidadao>();
     public HashSet<Agendamento> Agendamentos { get; private set; } = new HashSet<Agendamento>();
     private readonly ICadastroService _cadastroService;
 
@@ -56,9 +55,9 @@ public class Funcionario : Pessoa
     }
     
 
-    public void CadastrarCidadao(Cidadao cidadao) {
-        _cadastroService.AdicionarCidadao(cidadao);
-    }
+        public void CadastrarCidadao(Cidadao cidadao) {
+            _cadastroService.AdicionarCidadao(cidadao);
+        }
    
     public override void AgendarVacinacao(string cpf, DateTime dataDaVacinacao)
     {
@@ -78,10 +77,6 @@ public class Funcionario : Pessoa
         sb.Append("Matricula: ");
         sb.AppendLine(Matricula);
         sb.AppendLine("Paciêntes cadastrados: ");
-        foreach (Cidadao cidadao in Cadastrados)
-        {
-            sb.AppendLine(cidadao.ToString());
-        }
         return sb.ToString();
     }
 }

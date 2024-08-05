@@ -8,6 +8,7 @@ public class Program
 {
     static void Main(string[] args)
     {
+        Admin adm = new Admin(new CadastroService());
         try
         {
             Console.WriteLine("Vamos começar!");
@@ -23,6 +24,7 @@ public class Program
             Console.Write("CNPJ da Empresa: ");
             string? cnpj = Console.ReadLine();
             Funcionario funcionario = new Funcionario(new CadastroService(),nome, cpf, idade, matricula, cnpj);
+            adm.CadastrarFuncionario(funcionario);
 
             Console.WriteLine();
             Console.WriteLine("Agora vamos cadastrar um pessoa para vacinar:");
@@ -62,7 +64,7 @@ public class Program
             Console.WriteLine("3 - Realizar a gendamento;");
             Console.WriteLine("4 - Sair: ");
             int userResponse = int.Parse(Console.ReadLine() ?? string.Empty);
-            Admin adm = new Admin(new CadastroService());
+            
             switch (userResponse)
             {
                 case 1:

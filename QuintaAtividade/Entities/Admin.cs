@@ -49,6 +49,10 @@ public class Admin : Funcionario
         var funcionarioBuscado = _cadastroService.BuscarFuncionarioPorMatricula(matriculaAtual);
         funcionarioBuscado.Matricula = novaMatricula;
     }
+    
+    public void CadastrarFuncionario(Funcionario funcionario) {
+        _cadastroService.AdicionarFuncionario(funcionario);
+    }
 
     private bool ESenhaCorreta()
     {
