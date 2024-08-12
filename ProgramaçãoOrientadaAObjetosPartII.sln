@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuintaAtividade", "QuintaAtividade\QuintaAtividade.csproj", "{612B685D-A5DF-4271-B1CB-F3DFA2D5A8AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SextaAtividade", "SextaAtividade\SextaAtividade.csproj", "{B620FE0B-33FA-4964-843A-E4D7AA928A5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{612B685D-A5DF-4271-B1CB-F3DFA2D5A8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{612B685D-A5DF-4271-B1CB-F3DFA2D5A8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{612B685D-A5DF-4271-B1CB-F3DFA2D5A8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B620FE0B-33FA-4964-843A-E4D7AA928A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B620FE0B-33FA-4964-843A-E4D7AA928A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B620FE0B-33FA-4964-843A-E4D7AA928A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B620FE0B-33FA-4964-843A-E4D7AA928A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

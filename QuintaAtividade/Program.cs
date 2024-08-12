@@ -2,7 +2,7 @@
 using QuintaAtividade.Entities;
 using QuintaAtividade.Services;
 
-namespace QuartaAtividade;
+namespace QuintaAtividade;
 
 public class Program
 {
