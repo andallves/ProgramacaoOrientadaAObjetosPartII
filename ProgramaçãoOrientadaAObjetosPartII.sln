@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuintaAtividade", "QuintaAt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SextaAtividade", "SextaAtividade\SextaAtividade.csproj", "{B620FE0B-33FA-4964-843A-E4D7AA928A5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetimaAtividade", "SetimaAtividade\SetimaAtividade.csproj", "{0E65ED8C-BF59-4E6C-BE05-CE7F30033CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OitavaAtividade", "OitavaAtividade\OitavaAtividade.csproj", "{4D4BDFE2-83AD-42FB-B799-5F654BB2D876}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{B620FE0B-33FA-4964-843A-E4D7AA928A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B620FE0B-33FA-4964-843A-E4D7AA928A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B620FE0B-33FA-4964-843A-E4D7AA928A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E65ED8C-BF59-4E6C-BE05-CE7F30033CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E65ED8C-BF59-4E6C-BE05-CE7F30033CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E65ED8C-BF59-4E6C-BE05-CE7F30033CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E65ED8C-BF59-4E6C-BE05-CE7F30033CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4BDFE2-83AD-42FB-B799-5F654BB2D876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4BDFE2-83AD-42FB-B799-5F654BB2D876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4BDFE2-83AD-42FB-B799-5F654BB2D876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4BDFE2-83AD-42FB-B799-5F654BB2D876}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
